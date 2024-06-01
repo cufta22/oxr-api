@@ -1,6 +1,6 @@
 {
-  "name": "oxr-api",
-  "version": "1.0.50",
+  "name": "khofly-api",
+  "version": "1.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts"
@@ -8,7 +8,8 @@
   "dependencies": {
     "@elysiajs/cors": "^1.0.2",
     "@elysiajs/cron": "^1.0.3",
-    "elysia": "latest"
+    "elysia": "latest",
+    "node-html-parser": "^6.1.13"
   },
   "devDependencies": {
     "bun-types": "latest"
